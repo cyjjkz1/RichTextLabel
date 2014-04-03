@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		043F7E4D18ED3230002784BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043F7E4C18ED3230002784BC /* Foundation.framework */; };
+		043F7E4F18ED3230002784BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043F7E4E18ED3230002784BC /* CoreGraphics.framework */; };
+		043F7E5118ED3230002784BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043F7E5018ED3230002784BC /* UIKit.framework */; };
+		043F7E5718ED3230002784BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 043F7E5518ED3230002784BC /* InfoPlist.strings */; };
+		043F7E5918ED3230002784BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F7E5818ED3230002784BC /* main.m */; };
+		043F7E5D18ED3230002784BC /* ZGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F7E5C18ED3230002784BC /* ZGAppDelegate.m */; };
+		043F7E6018ED3230002784BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043F7E5E18ED3230002784BC /* Main.storyboard */; };
+		043F7E6318ED3230002784BC /* ZGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F7E6218ED3230002784BC /* ZGViewController.m */; };
+		043F7E6518ED3230002784BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 043F7E6418ED3230002784BC /* Images.xcassets */; };
+		043F7E6C18ED3230002784BC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043F7E6B18ED3230002784BC /* XCTest.framework */; };
+		043F7E6D18ED3230002784BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043F7E4C18ED3230002784BC /* Foundation.framework */; };
+		043F7E6E18ED3230002784BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043F7E5018ED3230002784BC /* UIKit.framework */; };
+		043F7E7618ED3230002784BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 043F7E7418ED3230002784BC /* InfoPlist.strings */; };
+		043F7E7818ED3230002784BC /* RichTextLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 043F7E7718ED3230002784BC /* RichTextLabelTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043F7E6F18ED3230002784BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 043F7E4118ED3230002784BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 043F7E4818ED3230002784BC;
+			remoteInfo = RichTextLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043F7E4918ED3230002784BC /* RichTextLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RichTextLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		043F7E4C18ED3230002784BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		043F7E4E18ED3230002784BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		043F7E5018ED3230002784BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		043F7E5418ED3230002784BC /* RichTextLabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RichTextLabel-Info.plist"; sourceTree = "<group>"; };
+		043F7E5618ED3230002784BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		043F7E5818ED3230002784BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		043F7E5A18ED3230002784BC /* RichTextLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RichTextLabel-Prefix.pch"; sourceTree = "<group>"; };
+		043F7E5B18ED3230002784BC /* ZGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGAppDelegate.h; sourceTree = "<group>"; };
+		043F7E5C18ED3230002784BC /* ZGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGAppDelegate.m; sourceTree = "<group>"; };
+		043F7E5F18ED3230002784BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		043F7E6118ED3230002784BC /* ZGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZGViewController.h; sourceTree = "<group>"; };
+		043F7E6218ED3230002784BC /* ZGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGViewController.m; sourceTree = "<group>"; };
+		043F7E6418ED3230002784BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		043F7E6A18ED3230002784BC /* RichTextLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RichTextLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		043F7E6B18ED3230002784BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		043F7E7318ED3230002784BC /* RichTextLabelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RichTextLabelTests-Info.plist"; sourceTree = "<group>"; };
+		043F7E7518ED3230002784BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		043F7E7718ED3230002784BC /* RichTextLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RichTextLabelTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		043F7E4618ED3230002784BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F7E4F18ED3230002784BC /* CoreGraphics.framework in Frameworks */,
+				043F7E5118ED3230002784BC /* UIKit.framework in Frameworks */,
+				043F7E4D18ED3230002784BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F7E6718ED3230002784BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F7E6C18ED3230002784BC /* XCTest.framework in Frameworks */,
+				043F7E6E18ED3230002784BC /* UIKit.framework in Frameworks */,
+				043F7E6D18ED3230002784BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043F7E4018ED3230002784BC = {
+			isa = PBXGroup;
+			children = (
+				043F7E5218ED3230002784BC /* RichTextLabel */,
+				043F7E7118ED3230002784BC /* RichTextLabelTests */,
+				043F7E4B18ED3230002784BC /* Frameworks */,
+				043F7E4A18ED3230002784BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		043F7E4A18ED3230002784BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043F7E4918ED3230002784BC /* RichTextLabel.app */,
+				043F7E6A18ED3230002784BC /* RichTextLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043F7E4B18ED3230002784BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				043F7E4C18ED3230002784BC /* Foundation.framework */,
+				043F7E4E18ED3230002784BC /* CoreGraphics.framework */,
+				043F7E5018ED3230002784BC /* UIKit.framework */,
+				043F7E6B18ED3230002784BC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		043F7E5218ED3230002784BC /* RichTextLabel */ = {
+			isa = PBXGroup;
+			children = (
+				043F7E5B18ED3230002784BC /* ZGAppDelegate.h */,
+				043F7E5C18ED3230002784BC /* ZGAppDelegate.m */,
+				043F7E5E18ED3230002784BC /* Main.storyboard */,
+				043F7E6118ED3230002784BC /* ZGViewController.h */,
+				043F7E6218ED3230002784BC /* ZGViewController.m */,
+				043F7E6418ED3230002784BC /* Images.xcassets */,
+				043F7E5318ED3230002784BC /* Supporting Files */,
+			);
+			path = RichTextLabel;
+			sourceTree = "<group>";
+		};
+		043F7E5318ED3230002784BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				043F7E5418ED3230002784BC /* RichTextLabel-Info.plist */,
+				043F7E5518ED3230002784BC /* InfoPlist.strings */,
+				043F7E5818ED3230002784BC /* main.m */,
+				043F7E5A18ED3230002784BC /* RichTextLabel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		043F7E7118ED3230002784BC /* RichTextLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				043F7E7718ED3230002784BC /* RichTextLabelTests.m */,
+				043F7E7218ED3230002784BC /* Supporting Files */,
+			);
+			path = RichTextLabelTests;
+			sourceTree = "<group>";
+		};
+		043F7E7218ED3230002784BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				043F7E7318ED3230002784BC /* RichTextLabelTests-Info.plist */,
+				043F7E7418ED3230002784BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		043F7E4818ED3230002784BC /* RichTextLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043F7E7B18ED3230002784BC /* Build configuration list for PBXNativeTarget "RichTextLabel" */;
+			buildPhases = (
+				043F7E4518ED3230002784BC /* Sources */,
+				043F7E4618ED3230002784BC /* Frameworks */,
+				043F7E4718ED3230002784BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RichTextLabel;
+			productName = RichTextLabel;
+			productReference = 043F7E4918ED3230002784BC /* RichTextLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		043F7E6918ED3230002784BC /* RichTextLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 043F7E7E18ED3230002784BC /* Build configuration list for PBXNativeTarget "RichTextLabelTests" */;
+			buildPhases = (
+				043F7E6618ED3230002784BC /* Sources */,
+				043F7E6718ED3230002784BC /* Frameworks */,
+				043F7E6818ED3230002784BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				043F7E7018ED3230002784BC /* PBXTargetDependency */,
+			);
+			name = RichTextLabelTests;
+			productName = RichTextLabelTests;
+			productReference = 043F7E6A18ED3230002784BC /* RichTextLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		043F7E4118ED3230002784BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					043F7E6918ED3230002784BC = {
+						TestTargetID = 043F7E4818ED3230002784BC;
+					};
+				};
+			};
+			buildConfigurationList = 043F7E4418ED3230002784BC /* Build configuration list for PBXProject "RichTextLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 043F7E4018ED3230002784BC;
+			productRefGroup = 043F7E4A18ED3230002784BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				043F7E4818ED3230002784BC /* RichTextLabel */,
+				043F7E6918ED3230002784BC /* RichTextLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		043F7E4718ED3230002784BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F7E6518ED3230002784BC /* Images.xcassets in Resources */,
+				043F7E5718ED3230002784BC /* InfoPlist.strings in Resources */,
+				043F7E6018ED3230002784BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F7E6818ED3230002784BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F7E7618ED3230002784BC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		043F7E4518ED3230002784BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F7E6318ED3230002784BC /* ZGViewController.m in Sources */,
+				043F7E5918ED3230002784BC /* main.m in Sources */,
+				043F7E5D18ED3230002784BC /* ZGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		043F7E6618ED3230002784BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				043F7E7818ED3230002784BC /* RichTextLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		043F7E7018ED3230002784BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 043F7E4818ED3230002784BC /* RichTextLabel */;
+			targetProxy = 043F7E6F18ED3230002784BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		043F7E5518ED3230002784BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043F7E5618ED3230002784BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		043F7E5E18ED3230002784BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043F7E5F18ED3230002784BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		043F7E7418ED3230002784BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				043F7E7518ED3230002784BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		043F7E7918ED3230002784BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		043F7E7A18ED3230002784BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		043F7E7C18ED3230002784BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RichTextLabel/RichTextLabel-Prefix.pch";
+				INFOPLIST_FILE = "RichTextLabel/RichTextLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		043F7E7D18ED3230002784BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RichTextLabel/RichTextLabel-Prefix.pch";
+				INFOPLIST_FILE = "RichTextLabel/RichTextLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		043F7E7F18ED3230002784BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RichTextLabel.app/RichTextLabel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RichTextLabel/RichTextLabel-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RichTextLabelTests/RichTextLabelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		043F7E8018ED3230002784BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RichTextLabel.app/RichTextLabel";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RichTextLabel/RichTextLabel-Prefix.pch";
+				INFOPLIST_FILE = "RichTextLabelTests/RichTextLabelTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		043F7E4418ED3230002784BC /* Build configuration list for PBXProject "RichTextLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043F7E7918ED3230002784BC /* Debug */,
+				043F7E7A18ED3230002784BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		043F7E7B18ED3230002784BC /* Build configuration list for PBXNativeTarget "RichTextLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043F7E7C18ED3230002784BC /* Debug */,
+				043F7E7D18ED3230002784BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		043F7E7E18ED3230002784BC /* Build configuration list for PBXNativeTarget "RichTextLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				043F7E7F18ED3230002784BC /* Debug */,
+				043F7E8018ED3230002784BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 043F7E4118ED3230002784BC /* Project object */;
+}
